@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>The Super Mario Bros</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./styles/global.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="background">
+  <video loop autoplay muted>
+    <source src="./assets/background-video.mp4" type="video/mp4">
+  </video>
+
+</div>
+
+<div id="play">
+  <header>
+    <img 
+    data-aos="fade-up" 
+    data-aos-duration="300"
+    data-aos-easing="ease-in-out"
+    src="./assets/logo-cap.png" alt="logo">
+    
+    <ul class="navigation">
+      <li>
+        <button
+        data-aos="fade-up" 
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+         href="link do jogo aqui", 
+         class="navigation_link">jogar</button>
+      </li>
+
+      <div class="cogumelou">
+        <img 
+        data-aos="fade-up" 
+        data-aos-duration="700"
+        data-aos-easing="ease-in-out"
+        src="./assets/favicon.ico" 
+        width = "150px" alt="cogumelou">
+      </div>
+
+    </div>
+
+    <div class="nome">
+      <img 
+      data-aos="fade-up" 
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+      src="./assets/logo-movie.png" 
+      width = "550px" 
+      alt="nome do mario">
+     
+    </div>
+
+    <div class="luigi">
+    <img 
+    data-aos="fade-up" 
+    data-aos-duration="800"
+    data-aos-easing="ease-in-out"
+    src="./assets/mario-and-luigi.png" 
+    width = "550px" 
+    alt="mario e luigi">
+  </div>
+
+
+    </ul>
+  </header>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
