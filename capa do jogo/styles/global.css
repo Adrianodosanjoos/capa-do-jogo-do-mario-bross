@@ -87,7 +87,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 5%;
 }
 
 
@@ -95,34 +95,77 @@ button:hover {
 
 
 
-@media screen and (max-width: 1020px) {
 
-  .nome {
-   
-    width: 30%;
-    height: 30%;
 
+  @media only screen and (max-width: 768px) {
+    .nome img {
+      max-width: 80%; 
+      height: auto; 
+    }
+    .luigi img {
+      max-width: 80%; 
+      height: right; 
+      
+    }
+
+    .cogumelou {
+      max-width: 80%; 
+      height: auto; 
+    }
+
+    #play{
+    
+      width: max-content 10%;
+    
+    }
+  }
   
+  
+  @media only screen and (max-width: 576px) {
+    .nome img {
+      max-width: 80%;
+      height: auto; 
+    }
+    .luigi img {
+      max-width: 200px; 
+      height: auto; 
+    }
 
+    .cogumelou {
+
+      display: none;
+      max-width: 80%; 
+      height: auto; 
+    }
+
+    
+  }
+  
+  
+  @media only screen and (max-width: 890px) {
+    .nome img {
+      max-width: 85%; 
+      height: auto;
+    }
+    .luigi img {
+    
+      max-width: 400px; 
+     text-align: right;
   }
 
-  .luigi {
-  justify-content:left ;
- 
- 
-
-  }
-
-  .cogumelou {
-    display: none;
-  }
-
-  .navigation_link {
-    display: none;
-  }
-
-  #play {
-    display: none;
-
-  }
 }
+  
+  @media only screen and (max-width: 430px ) {
+    .nome img { 
+     
+      max-width: 85%; 
+      height: auto;
+    }
+    .luigi img {
+    
+      max-width: 200px; 
+     align-items: right;
+  }
+  
+ 
+  }
