@@ -169,3 +169,19 @@ button:hover {
   
  
   }
+
+  @media (orientation: landscape) {
+
+    .nome img { 
+     
+      max-width: 45%; 
+      height: auto;
+    }
+    .luigi img {
+    
+      max-width: 250px; 
+     align-items: right;
+  }
+  
+
+  }
